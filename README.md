@@ -2,13 +2,20 @@
 
 My solutions to LeetCode problems while improving my DSA and problem-solving skills.
 
-📚 Topics
+📚 Topics :
+
 Arrays
 
 Strings
-Linked List
+
+Linked List 
+
 Stack & Queue
+
 Trees
+
 Heap
+
 Graphs
+
 Dynamic Programming
