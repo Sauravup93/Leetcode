@@ -5,42 +5,28 @@
 #         self.next = None
 
 class Solution(object):
-     def detectCycle(self, head):
-        slow = head 
-        fast = head
+    def detectCycle(self, head):
+        slow = head
+        fast= head
 
         while fast and fast.next:
             slow=slow.next
             fast=fast.next.next
 
-            if slow==fast:
-                
+            if fast==slow:
+
                 break
 
         else:
-        
             return None
 
 
+        slow=head
 
-        slow = head
-
-        while slow != fast:
-            fast = fast.next
-            slow = slow.next
+        while slow!=fast:
+            slow=slow.next
+            fast=fast.next
 
         return slow
 
-
-
-
-
-
-
-
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
 
